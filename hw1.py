@@ -91,17 +91,16 @@ def hailstone(n):
     7
     """
     "*** YOUR CODE HERE ***"
-    sequence = [n]
-    if n == 1
-    	return a
-    else if n%2 == 0
-    	sequence.append(n/2)
-    	return hailstone(n/2)
-    else if n%2 != 0
-    	sequence.append((3 * n) + 1)
-    	return hailstone((3 * n) + 1)
+    print n
+    while n != 1:
+    	if n%2 == 0:
+    		n = n/2
+    		print(n)
 
-
+    	elif n%2 != 0:
+    		n = (3 * n) + 1
+    		print(n)
+    return
 
 challenge_question_program = """
 "*** YOUR CODE HERE ***"
